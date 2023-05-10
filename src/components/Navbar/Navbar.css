@@ -30,3 +30,13 @@
     font-size: 14px;
     box-shadow: 1px 2px 35px #F4FA00;
 }
+
+@media screen and (max-width: 350px) {
+    .input-conts {
+        gap: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-block: 20px;
+        padding-inline: 15px !important;
+    }
+}

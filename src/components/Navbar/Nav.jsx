@@ -38,7 +38,7 @@ const Navbar = () => {
                 <div 
                     className={`${!toggle ? "flex" : "hidden"} 
                         absolute top-[72px] sidebar bg-[#000000] rounded-b-[20px]
-                        bg-[#fff] pl-[20px] left-[0px] w-full py-[20px] mobile_nav
+                        pl-[20px] left-[0px] w-full py-[20px] mobile_nav
                     `}
                 >
                     <ul className=' flex flex-col gap-[50px]'>
