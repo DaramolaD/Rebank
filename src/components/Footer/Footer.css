@@ -1,0 +1,12 @@
+
+
+@media screen and (max-width: 900px) {
+    .footer_conts {grid-template-columns: repeat(1, minmax(0, 1fr)) !important;}
+}
+@media screen and (max-width: 600px) {
+    .footer_conts {gap: 40px;}
+    .brand-conts {
+        grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+        gap: 30px;
+    }
+}

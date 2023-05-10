@@ -1,0 +1,25 @@
+
+
+.pre-img-cont .card_atm {
+    transform: translateY(-130px) translateX(-100px);
+}
+@media screen and (max-width: 900px) {
+    .personalization .per-conts {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 50px;
+    }
+    .personalization .per-text-conts h3 {font-size: 35px;}
+    .personalization .per-conts .pre-img-cont {
+        display: grid;
+        place-items: center;
+    }
+    .pre-img-cont .card_atm {
+        transform: translateY(-50px) translateX(-50px);
+        width: 60%;
+    }
+}
+@media screen and (max-width: 900px) {
+    .personalization .per-text-conts h3 {
+        font-size: 30px;
+    }
+}

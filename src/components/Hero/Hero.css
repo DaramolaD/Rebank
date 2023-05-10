@@ -1,0 +1,80 @@
+
+
+.hero {
+    font-family: 'Roc Grotesk', sans-serif;
+}
+
+.hero h1 {
+    font-size: 54px;
+    color: #000000;
+    font-weight: 500;
+    font-family: 'Roc Grotesk';
+}
+.hero p {
+    font-size: 18px;
+    color: #000000;
+    font-weight: 400;
+    font-family: 'Roboto';
+}
+.arrow-btn-conts {
+    width: 150px;
+    height: 150px;
+    background-color: #000000;
+}
+.arrow-btn-conts p {
+    font-size: 30px;
+    font-weight: 500;
+    color: #F4FA00;
+}
+.hero-add-text p {
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+}
+.text-col-grad {
+    background: linear-gradient(90deg, #F2FF37 0%, #F2FF37 100%);
+    filter: blur(900px);
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 0px;
+    transform: translateY(50%) translateX(-25%);
+    z-index: -1;
+}
+.text-col-grad_2 {
+    background: linear-gradient(90deg, #FF0101 0%, #FF0101 100%);
+    filter: blur(900px);
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 0px;
+    transform: translateY(-50%) translateX(-25%);
+    z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+    .hero .hero-conts {grid-template-columns: repeat(1, minmax(0, 1fr));}
+    .hero-add-text p {font-size: 16px;}
+    .hero .text-conts {gap: 0px;}
+    .mockup {max-width: 50%;}
+    .atm-cards{
+        width: 90%;
+        bottom: 46%;
+    }
+    .arrow-btn-conts {
+        width: 105px;
+        height: 105px;
+    }
+    .arrow-btn-conts p {font-size: 20px;}
+}
+@media screen and (max-width: 600px) {
+    .hero {padding-top: 180px;}
+}
+
+@media screen and (max-width: 450px) {
+    .hero h1 {
+        font-size: 35px;
+    }
+    .hero-add-text {padding-bottom: 20px;}
+}

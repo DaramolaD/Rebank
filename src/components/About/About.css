@@ -1,0 +1,68 @@
+
+
+.card-cont {
+    background-size: 450px;
+    background-image: url(../../assets/card_hero_image_wrapper.png), url(../../assets/card_hero_back_map.svg);
+    background-color: #fff;
+    position: relative;
+    padding-inline: 20px;
+    background-position: bottom right, bottom left;
+}
+.card-cont_2 {
+    background-image: url(../../assets/card_hero_image_wrapper_mobile_2.png), url(../../assets/card_hero_back_2.svg) !important;
+}
+
+.yellow-conts {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background: linear-gradient(180deg, #F4FA00 0%, #F4FA00 100%);
+    filter: blur(123px);
+    width: 500px;
+    height: 500px;
+}
+  
+.brown-conts {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background: linear-gradient(90deg, #FF6B24 0%, #FF6B24 100%);
+    filter: blur(900px);
+    width: 500px;
+    height: 500px;
+    
+} 
+.cards-conts, .cards-img {z-index: 1;}
+
+
+@media screen and (max-width: 1200px) {
+    .card-cont {background-size: 400px;}
+}
+@media screen and (max-width: 1065px) {
+    .card-cont {background-size: 300px;}
+    .card-cont {height: 800px !important;}
+}
+@media screen and (max-width: 1000px) {
+    .about-title h3 {font-size: 50px;}
+}
+@media screen and (max-width: 850px) {
+    .cards-conts {grid-template-columns: repeat(1, minmax(0, 1fr)) !important;}
+    .card-cont {height: 650px !important;}
+}
+@media screen and (max-width: 768px) {
+    .about-title h3 {font-size: 35px}
+}
+@media screen and (max-width: 560px) {
+    .card-cont {height: 750px !important;}
+}
+@media screen and (max-width: 500px) {
+    .about-title h3 {font-size: 22px;}
+    .card-cont {padding-inline: 20px !important;}
+    .card-cont .text-cont h3 {font-size: 25px;}
+}
+@media screen and (max-width: 450px) {
+    .card-cont {
+        height: 850px !important;
+        padding-inline: 20px;
+    }
+}

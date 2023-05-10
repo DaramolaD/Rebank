@@ -1,0 +1,27 @@
+
+
+.cto-conts {
+    background: no-repeat center url(../../assets/bg.png);
+}
+.cto_text img {
+    width: 60%;
+    right: -268px;
+    bottom: -102px;
+    transform: translateX(-50%);
+}
+
+@media screen and (max-width: 1000px) {
+    .cto_text img {right: -203px;}
+}
+@media screen and (max-width: 768px) {
+    .cto_text img {display: none;}
+    .cto_text h2 {font-size: 40px;}
+}
+@media screen and (max-width: 500px) {
+    .cto-conts {
+        padding-block: 80px;
+        background-size: cover;
+        height: 0px;
+    }
+    .cto_text h2 {font-size: 30px;}
+}
